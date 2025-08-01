@@ -67,7 +67,7 @@ def post_auth_redirect():
     return """
     <html>
       <head>
-        <meta http-equiv="refresh" content="0;url='https://localhost:5173'" />
+        <meta http-equiv="refresh" content="0;url='https://music-button.henryhutchison.com'" />
       </head>
       <body>
         Auth successful. Redirecting to app...
