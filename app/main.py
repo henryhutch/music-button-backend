@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://localhost:5173"],
+    allow_origins=["https://music-button.henryhutchison.com:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
